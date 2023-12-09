@@ -33,17 +33,39 @@ img{
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+
+}
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0);
+    clip-path: inherit (50%);
+    margin: -1px;
+
 }
 
 /*HEADER */
-.conteiner-header{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-padding: 24px 156px;
-
+.header-conteiner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    
 }
+
 .logo-span-header{
     color: #2E2F42;
 }
@@ -56,28 +78,40 @@ padding: 24px 156px;
     text-transform: uppercase;
     line-height: 1.17;
     color: #4d5ae5;
-    
+    margin-right: 76px;
 }
 .post-menu{
     color: #2E2F42;
     font-weight: 500;
     letter-spacing: 0.32px;
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    align-items: center;
 }
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
 .post-menu-link{
     color: #2e2f42;
     padding: 24;
     gap: 40;
-
 }
+
 .post-menu-link:hover, .post-menu-link:focus{
      color: #404BBF;
 }
 .post-social{
     font-style: normal;
+    
+}
+.social{
+    display: flex;
+    gap: 40px;
+    
 }
 .post-social-links{
     color: #434455;
@@ -89,6 +123,9 @@ padding: 24px 156px;
 }
 
 /* SECTION 1*/
+.section-one-container{
+    padding: 188px 472px 292px 472px;
+}
 .post-section{
     background: #2E2F42;
     flex-shrink: 0;
@@ -102,6 +139,11 @@ padding: 24px 156px;
     line-height: 1.07;
     width: 496px;
     margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
 }
 .post-section-button{
     color: #ffffff;
@@ -114,18 +156,29 @@ padding: 24px 156px;
     letter-spacing: 0.04em;
     padding: 16px 32px;
     margin-bottom: 188px;
+    border-radius: 4px;
+    display: inline-flex;
 } 
 .post-section-button:hover, .post-section-button:focus{
     background-color: #404BBF;
 }
 
 /* SECTION 2 */
+.post-secondary{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    
+
+}
 .post-title-secondary{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.4px;
-    line-height: 1.2;   
+    line-height: 1.2; 
+    width: 264px;
+    margin-bottom: 8px;
 }
 .post-text{
     font-size: 16px;
