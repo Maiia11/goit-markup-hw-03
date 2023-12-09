@@ -85,10 +85,6 @@ img{
     padding: 24px 0 24px;
     
 }
-.nav-link{
-    padding: 24px 0;
-    margin-right: 76px
-}
 
 .menu{
     display: flex;
@@ -97,6 +93,7 @@ img{
 }
 .menu-link{
     padding: 24px 0;
+    margin-right: 76px;
 }
 
 .post-menu-link{
