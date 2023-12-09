@@ -83,6 +83,7 @@ img{
     line-height: 1.17;
     color: #4d5ae5;
     margin-right: 76px;
+    padding: 24px 0;
 }
 .post-menu{
     color: #2E2F42;
@@ -98,6 +99,7 @@ img{
 .menu{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .post-menu-link{
@@ -172,7 +174,18 @@ img{
 }
 
 /* SECTION 2 */
-
+.visually-hidden{
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
 .post-secondary-section{
     display: flex;
     gap: 24px;
@@ -230,8 +243,9 @@ img{
     
 }
 .tittle-list{
-    gap: 24px;
     display: flex;
+    gap: 24px;
+    
 }
 .post-title-list{
     background-color: #FFFFFF;
@@ -246,7 +260,7 @@ img{
     
    
 }
-.article{
+.article-title-list{
     padding: 32px 0;
     text-align: center;
     margin-bottom: 8px;
