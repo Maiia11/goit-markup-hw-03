@@ -40,19 +40,6 @@ img{
 .section{
     padding: 120px 0;
 }
-.visually-hidden{
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0);
-    clip-path: inherit (50%);
-    margin: -1px;
-
-}
 
 /*HEADER */
 .header{
@@ -100,12 +87,16 @@ img{
 }
 .nav-link{
     padding: 24px 0;
+    margin-right: 76px
 }
 
 .menu{
     display: flex;
     gap: 40px;
     margin-left: 76px;
+}
+.menu-link{
+    padding: 24px 0;
 }
 
 .post-menu-link{
@@ -263,6 +254,8 @@ overflow: hidden;
     flex-wrap: wrap;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    gap: 24px;
+
     
    
 }
