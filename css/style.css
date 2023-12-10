@@ -29,7 +29,7 @@ img{
     min-width: 100%;
     padding-bottom: 32px;
 }
-.conteiner {
+.container {
     max-width: 1158px;
     padding-left: 15px; 
     padding-right: 15px;
@@ -45,7 +45,7 @@ img{
 .header{
     border-bottom: 1px solid #e7e9fc
 }
-.header-conteiner{
+.header-container{
     display: flex;
     justify-content: space-between;
     max-width: 1158px;
@@ -98,7 +98,7 @@ img{
 
 .post-menu-link{
     color: #2e2f42;
-    padding: 24;
+    padding: 24px 0;
     gap: 40;
 }
 
@@ -237,21 +237,22 @@ overflow: hidden;
     
 }
 .tittle-list{
-    display: flex;
-    gap: 24px;
+    /*display: flex;
+    gap: 24px;*/
     
 }
 .post-title-list{
     background-color: #FFFFFF;
-    display: inline-flex;
+    /*display: inline-flex;*/
     padding-bottom: 32px;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /*flex-direction: column;*/
     flex-wrap: wrap;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     gap: 24px;
+    display: flex;
 
     
    
